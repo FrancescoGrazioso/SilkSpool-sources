@@ -1,13 +1,28 @@
 {
-  "repository_info": {
-    "id": "silkspool-official-sources",
-    "name": "Silk Spool Official Sources",
-    "description": "Official repository of mod sources for Hollow Knight: Silksong, curated for the Silk Spool mod manager application",
-    "url": "https://github.com/francescograzioso/SilkSpool-sources",
-    "author": "Francesco Grazioso",
-    "version": "1.0.0",
-    "last_updated": "2025-09-23T10:21:00Z",
-    "mod_count": 0
-  },
-  "mods": []
+  "repo_id": "silkspool-official-sources",
+  "name": "Silk Spool Official Sources",
+  "version": 1,
+  "mods": [
+    {
+      "id": "damage-healthbar",
+      "title": "ShowDamage HealthBar",
+      "description": "A mod that displays enemy health bars and damage numbers when attacking enemies in the game. All features are fully configurable to suit your preferences.",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/thumbnails/28/28-1757356236-1140228919.png",
+        "https://staticdelivery.nexusmods.com/mods/8136/images/thumbnails/28/28-1757299778-833021026.png",
+        "https://staticdelivery.nexusmods.com/mods/8136/images/thumbnails/28/28-1757356235-1038419277.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v2.0.2",
+          "url": "https://www.mediafire.com/file/isagzqmb0ezavk3/ShowDamage_HealthBar-28-2-0-2-1757872007.zip"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/28",
+      "authors": ["BV1kNaizqEFD"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-01-15T10:30:00Z"
+    }
+  ]
 }

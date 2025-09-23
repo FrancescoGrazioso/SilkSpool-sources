@@ -1,0 +1,26 @@
+{
+  "_INSTRUCTIONS": "COPY THIS ENTIRE OBJECT AND PASTE IT INTO THE 'mods' ARRAY IN silkspool-sources.json - THEN REPLACE ALL PLACEHOLDER VALUES WITH YOUR ACTUAL MOD DATA",
+  "id": "your-mod-id-here",
+  "title": "Your Mod Title Here",
+  "description": "Detailed description of what your mod does. This should explain the functionality, benefits, and any important features. Make sure to be descriptive but concise.",
+  "requirements": ["BepInEx", "Silksong"],
+  "images": [
+    "https://example.com/screenshot1.png",
+    "https://example.com/screenshot2.png",
+    "https://example.com/thumbnail.png"
+  ],
+  "downloads": [
+    {
+      "label": "Download v1.0.0",
+      "url": "https://github.com/yourusername/your-mod-repo/releases/download/v1.0.0/YourMod.zip"
+    },
+    {
+      "label": "Download v0.9.0 (Legacy) (Optional)",
+      "url": "https://github.com/yourusername/your-mod-repo/releases/download/v0.9.0/YourMod.zip"
+    }
+  ],
+  "homepage": "https://github.com/yourusername/your-mod-repo",
+  "authors": ["Your Name", "Co-Author Name"],
+  "game_version": "1.0.0",
+  "updated_at": "2024-12-19T12:00:00Z"
+}

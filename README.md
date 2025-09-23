@@ -22,78 +22,43 @@ Each repository JSON file must follow this exact structure:
 
 ```json
 {
-  "repository_info": {
-    "id": "unique-repo-id",
-    "name": "Repository Name",
-    "description": "Repository description",
-    "url": "https://github.com/username/repo-name",
-    "author": "Author Name",
-    "version": "1.0.0",
-    "last_updated": "2024-01-15T10:30:00Z",
-    "mod_count": 0
-  },
+  "repo_id": "unique-repo-id",
+  "name": "Repository Name",
+  "version": 1,
   "mods": []
 }
 ```
 
 ### Required Fields
 
-#### Repository Info
-- `id`: Unique repository identifier (string)
+#### Repository Level
+- `repo_id`: Unique repository identifier (string)
 - `name`: Repository display name (string)
-- `description`: Brief description (string, max 200 characters)
-- `url`: Repository URL (string)
-- `author`: Repository author/curator (string)
-- `version`: Repository version (string)
-- `last_updated`: Last update date in ISO 8601 format
-- `mod_count`: Exact number of mods in the array
+- `version`: Repository version number (integer)
+- `mods`: Array of mod objects
 
 #### Mod Information
 - `id`: Unique mod identifier (string)
-- `title`: Mod name (string, max 100 characters)
-- `description`: Detailed description (string, 200-500 characters)
-- `version`: Mod version (string)
-- `game_version`: Supported game version (string)
-- `author`: Primary author (string)
-- `updated_at`: Last update date in ISO 8601 format
+- `title`: Mod name (string)
+- `description`: Detailed description (string)
+- `requirements`: Array of mod requirements (e.g., BepInEx, Silksong)
+- `images`: Array of image URLs (strings)
 - `downloads`: Array with at least one download object
+- `homepage`: Mod homepage URL (string)
+- `authors`: Array of author names (strings)
+- `game_version`: Supported game version (string)
+- `updated_at`: Last update date in ISO 8601 format
 
 #### Download Object
-- `url`: Direct download URL (string)
 - `label`: Download label (string)
-- `type`: File type (zip, tar.gz, dll, etc.)
-
-### Optional Fields
-
-- `authors`: Array of additional authors
-- `requirements`: Array of mod requirements (e.g., BepInEx, ModLoader)
-- `tags`: Array of categorization tags
-- `created_at`: Creation date in ISO 8601 format
-- `homepage`: Mod homepage URL
-- `images`: Array of image objects
-- `changelog`: Array of version changelog entries
-
-## Common Tags
-
-Use these standardized tags for mod categorization:
-
-- `utility`: Utility tools and helpers
-- `ui`: User interface modifications
-- `gameplay`: Gameplay mechanics and features
-- `visual`: Graphics and visual effects
-- `audio`: Sound and music modifications
-- `quality-of-life`: Quality of life improvements
-- `cheat`: Cheat codes and modifications
-- `cosmetic`: Cosmetic changes
-- `debug`: Debug and development tools
-- `performance`: Performance optimizations
+- `url`: Direct download URL (string)
 
 ## Common Requirements
 
 - `BepInEx`: Modding framework
+- `Silksong`: Game requirement
 - `ModLoader`: Mod loading system
 - `UnityEngine`: Unity engine dependencies
-- `Assembly-CSharp`: Game code modifications
 
 ## Contributing
 
@@ -115,7 +80,6 @@ Use these standardized tags for mod categorization:
 - [ ] Dates are in ISO 8601 format
 - [ ] URLs are properly formatted and accessible
 - [ ] Data types are correct
-- [ ] `mod_count` matches the actual number of mods
 
 #### Pull Request Template
 ```markdown
@@ -126,7 +90,6 @@ Brief description of what the mod does.
 
 ### Changes Made
 - Added mod: [mod-id]
-- Updated mod_count to: [new count]
 - [Any other changes]
 
 ### Validation
@@ -143,19 +106,17 @@ Brief description of what the mod does.
 
 When adding a new mod, ensure you provide:
 
-1. **Complete mod metadata** (title, description, version, author)
+1. **Complete mod metadata** (title, description, authors, game_version)
 2. **Working download links** (GitHub releases, direct links)
-3. **Appropriate tags** for categorization
-4. **Requirements** if the mod has dependencies
-5. **Images** (screenshots, thumbnails) when available
-6. **Changelog** for version history
+3. **Requirements** if the mod has dependencies
+4. **Images** (screenshots, thumbnails) when available
+5. **Homepage URL** for the mod
 
 ### Quality Standards
 
-- **Descriptions**: Should be detailed (200-500 characters) and explain what the mod does
+- **Descriptions**: Should be detailed and explain what the mod does
 - **Download URLs**: Must be direct links to working files
 - **Images**: Should be optimized for web and accessible
-- **Versions**: Use semantic versioning (e.g., 1.2.0)
 - **Dates**: Always use ISO 8601 format in UTC
 
 ### Validation Checklist
@@ -167,14 +128,29 @@ Before submitting a pull request, verify:
 3. **Uniqueness**: Check that all IDs are unique
 4. **URL Accessibility**: Test all download and image URLs
 5. **Data Consistency**: Verify data types and formats
-6. **Count Accuracy**: Ensure `mod_count` matches actual mod count
 
 ## File Organization
 
-- `example-repository.json`: Example repository with sample mods
-- `AI_REPOSITORY_PROMPT.md`: AI prompt for repository creation
-- `REPOSITORY_JSON_TEMPLATE.md`: Detailed template documentation
+- `silkspool-sources.json`: Main repository JSON file
+- `mod-template.json`: Template for creating new mod entries
 - `README.md`: This file
+
+## How to Use the Mod Template
+
+1. **Open `mod-template.json`** - This contains a complete mod entry template
+2. **Copy the entire JSON object** (everything between the curly braces `{}`)
+3. **Open `silkspool-sources.json`** and navigate to the `mods` array
+4. **Paste the template** as a new element in the `mods` array
+5. **Replace all placeholder values** with your actual mod data:
+   - `your-mod-id-here` → Your unique mod ID
+   - `Your Mod Title Here` → Your mod's display name
+   - `Your Name` → Your name or username
+   - `https://example.com/...` → Your actual URLs
+   - `2024-12-19T12:00:00Z` → Current date in ISO 8601 format
+6. **Remove the `_INSTRUCTIONS` field** from your final mod entry
+7. **Validate the JSON** to ensure it's properly formatted
+
+**Note**: The `_INSTRUCTIONS` field in the template is just for guidance and should be removed when you add the mod to the main repository.
 
 ## Support
 
