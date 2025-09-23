@@ -133,7 +133,36 @@ Before submitting a pull request, verify:
 
 - `silkspool-sources.json`: Main repository JSON file
 - `mod-template.json`: Template for creating new mod entries
+- `downloads/`: Directory containing actual mod files
 - `README.md`: This file
+
+## Local Downloads
+
+This repository includes the actual mod files in the `downloads/` directory for reliability and speed. The structure is:
+
+```
+downloads/
+├── mod-id/
+│   ├── v1.0.0/
+│   │   └── ModName.zip
+│   └── v0.9.0/
+│       └── ModName.zip
+└── another-mod/
+    └── v1.0.0/
+        └── AnotherMod.zip
+```
+
+**Benefits:**
+- ✅ Reliable downloads (no broken external links)
+- ✅ Fast downloads (served from GitHub)
+- ✅ Version control for all mod files
+- ✅ Backup of all mod versions
+
+**URL Format:**
+Use GitHub raw URLs in your JSON:
+```
+https://raw.githubusercontent.com/francescograzioso/SilkSpool-sources/main/downloads/mod-id/version/filename.zip
+```
 
 ## How to Use the Mod Template
 
@@ -145,10 +174,11 @@ Before submitting a pull request, verify:
    - `your-mod-id-here` → Your unique mod ID
    - `Your Mod Title Here` → Your mod's display name
    - `Your Name` → Your name or username
-   - `https://example.com/...` → Your actual URLs
+   - `https://example.com/...` → Your actual URLs (use GitHub raw URLs for local files)
    - `2024-12-19T12:00:00Z` → Current date in ISO 8601 format
-6. **Remove the `_INSTRUCTIONS` field** from your final mod entry
-7. **Validate the JSON** to ensure it's properly formatted
+6. **Add your mod files** to the `downloads/` directory following the structure above
+7. **Remove the `_INSTRUCTIONS` field** from your final mod entry
+8. **Validate the JSON** to ensure it's properly formatted
 
 **Note**: The `_INSTRUCTIONS` field in the template is just for guidance and should be removed when you add the mod to the main repository.
 

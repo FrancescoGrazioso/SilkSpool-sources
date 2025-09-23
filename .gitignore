@@ -48,11 +48,12 @@ local-*.json
 test-*.json
 temp-*.json
 
-# Archive files (unless specifically needed)
-*.zip
+# Archive files (except mod files in downloads/)
 *.tar.gz
 *.rar
 *.7z
+# Allow mod files in downloads directory
+!downloads/**/*.zip
 
 # Large media files (screenshots, etc.)
 *.png
