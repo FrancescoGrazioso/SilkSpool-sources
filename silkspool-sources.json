@@ -1,0 +1,13 @@
+{
+  "repository_info": {
+    "id": "silkspool-official-sources",
+    "name": "Silk Spool Official Sources",
+    "description": "Official repository of mod sources for Hollow Knight: Silksong, curated for the Silk Spool mod manager application",
+    "url": "https://github.com/francescograzioso/SilkSpool-sources",
+    "author": "Francesco Grazioso",
+    "version": "1.0.0",
+    "last_updated": "2024-12-19T12:00:00Z",
+    "mod_count": 0
+  },
+  "mods": []
+}
