@@ -1,6 +1,6 @@
 # Silk Spool Sources
 
-A comprehensive repository of mod sources for Hollow Knight: Silksong, designed to work with the Silk Spool mod manager application.
+A comprehensive repository of mod sources for Hollow Knight: Silksong, designed to work with the [Silk Spool](https://github.com/FrancescoGrazioso/SilkSpool) mod manager application.
 
 ## What is this repository?
 
