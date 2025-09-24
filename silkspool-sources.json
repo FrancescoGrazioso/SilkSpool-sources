@@ -158,6 +158,82 @@
       "authors": ["YukkuriC"],
       "game_version": "1.0.0",
       "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "one-kill-for-journal-entry",
+      "title": "One Kill for Journal Entry",
+      "description": "BepInEx plugin to fill out a journal entry for an enemy with only one kill.\nBecause killing something 30 times is just a pain in the ass.\n(No mods affect game achievements.)\n\nThis does not change the number of kills required! Nothing is retroactive!\nAll it does is give you all the points (kill counts) needed for that enemy when you kill it!",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/25/25-1757106406-957491395.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.1.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/one-kill-for-journal-entry/v1.1.0/OneKillForJournal.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/25",
+      "authors": ["Synthlight"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "double-rosaries",
+      "title": "Double Rosaries",
+      "description": "Doubles the amount of rosaries (currency used to buy items at shops) you pick up",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/37/37-1757145277-144221544.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.4.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/double-rosaries/v1.4.0/DoubleRosaries.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/37",
+      "authors": ["BlueRaja"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "double-silk",
+      "title": "Double Silk",
+      "description": "Doubles silk (MP used for healing and abilities) from all sources",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/38/38-1757146926-1650177393.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.3.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/double-silk/v1.3.0/DoubleSilk.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/38",
+      "authors": ["BlueRaja"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "simple-rosary-cheat",
+      "title": "Simple Rosary Cheat",
+      "description": "Instantly add 1000 rosaries (currency) to your inventory with a single keypress F3\nInstantly add 100 Shards to your inventory with a single keypress F4",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/8/8-1758133372-3839451.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v2.0.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/simple-rosary-cheat/v2.0.0/SimpleRosaryCheat.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/8",
+      "authors": ["midouu"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
     }
   ]
 }
