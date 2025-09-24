@@ -120,6 +120,25 @@
       "authors": ["ryanfan175"],
       "game_version": "1.0.0",
       "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "no-bench-restrictions",
+      "title": "No Bench Restrictions",
+      "description": "This mod for Hollow Knight: Silksong removes the bench restriction, allowing players to change skills and tools from the inventory menu without needing to sit on a bench. It enhances gameplay flexibility by enabling quick access to abilities and items during exploration or combat.",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/70/70-1757422175-197465640.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.0.5",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/no-bench-restrictions/v1.0.5/NoBenchRestrictions.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/70",
+      "authors": ["REALMWTH"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
     }
   ]
 }
