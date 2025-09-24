@@ -57,8 +57,29 @@
           "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/stakes-of-marika/v1.0.5/RebirthAnywhere.dll"
         }
       ],
-      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/22",
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/46",
       "authors": ["kassent"],
+      "game_version": "1.0.0",
+      "updated_at": "2025-09-24T10:30:00Z"
+    },
+    {
+      "id": "relaxed-mode",
+      "title": "Relaxed Mode",
+      "description": "A collection of balance and quality of life features to make the game more relaxed.\n\n\nAll damage sources deal 1 mask of damage\n-1.75x Rosary Beads\n-1.5x Shards\n-Changing crests, skills and tools can be done at any time and is no longer limited to benches\n-Healing only costs a percentage of silk based on missing health (1 mask = 1/3 of spool, 3 masks = full spool)\n-Attempting to heal while at full health doesn’t consume silk\n-Swift Step (sprint) no longer consumes silk\n-Clawline (harpoon) no longer consumes silk\n-The Compass works without being equipped (still needs to be bought)\n-The Magnetite Brooch works without being equipped (still needs to be bought)\n-Ascendant's Grip works without being equipped (lets a player stick to the wall indefinitely)\n-Shards always get pulled to the player\n-The Quill updates the map without having to rest at a bench\n-Removed timers for delivery quests (e.g. Rasher) \n-Increased iframes after receiving damage to 700ms (prevents double environmental damage)\n-Maggot effect no longer consumes silk over time, instead requires a full spool to remove (without heal)\n-Skip game startup screens",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/92/92-1757414329-1122367179.jpg",
+        "https://staticdelivery.nexusmods.com/mods/8136/images/92/92-1757413588-20303992.jpg",
+        "https://staticdelivery.nexusmods.com/mods/8136/images/92/92-1757413596-1462027433.jpg"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.7.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/relaxed-mode/v1.7.0./RelaxedMode.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/92",
+      "authors": ["amidogor"],
       "game_version": "1.0.0",
       "updated_at": "2025-09-24T10:30:00Z"
     }
