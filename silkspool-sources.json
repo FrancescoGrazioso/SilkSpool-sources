@@ -139,6 +139,25 @@
       "authors": ["REALMWTH"],
       "game_version": "1.0.0",
       "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "all-enemies-drop-rosary-beads",
+      "title": "All Enemies Drop Rosary Beads (and shards)",
+      "description": "Every enemy drops extra beads according to their max life on killed.\n\n To be more detailed: the extra bead drop follows the formula: extra bead = floor(max health / [bead ratio]) the \"Bead Ratio\" in which is 5 by default, and also configurable. Enemies with initial bead drops get even more beads according to their max health, which is also configurable to skip this kind of increment. Config file locates at \"<GAME FOLDER>/BepInEx/config/yukkuric.silksong.mod.extra_geo.cfg\"",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/55/55-1757225071-1467873258.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.4.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/all-enemies-drop-rosary-beads/v1.4.0/AllEnemiesDropRosaryBeads.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/55",
+      "authors": ["YukkuriC"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
     }
   ]
 }
