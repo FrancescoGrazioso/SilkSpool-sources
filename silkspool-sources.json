@@ -296,6 +296,63 @@
       "authors": ["kassent"],
       "game_version": "1.0.0",
       "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "increase-player-damage",
+      "title": "Increase Player Damage",
+      "description": "Doubles the damage inflicted by the player. The multiplier can be configured, default is 2.",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/43/43-1757171037-7812577.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.0.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/increase-player-damage/v1.0.0/DoubleDamage.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/43",
+      "authors": ["stebars"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "automap",
+      "title": "AutoMap",
+      "description": "Once you have purchased the Quill and the map for an area, automatically updates the map as you move through that area, instead of only updating the map when you rest at a bench. Will not update for areas for which you have not purchased the map.",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/31/31-1757129281-1503854362.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.1.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/automap/v1.1.0/AutoMap.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/31",
+      "authors": ["WheresWolfgang"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "no-double-damage",
+      "title": "No Double Damage",
+      "description": "Prevents enemies and normal bosses hits from dealing more than 1 mask of damage",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/16/16-1757092141-2123097839.jpg"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.0.1",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/no-double-damage/v1.0.1/NoDoubleDamage.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/16",
+      "authors": ["Baiker"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
     }
   ]
 }
