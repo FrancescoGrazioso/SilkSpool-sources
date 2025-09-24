@@ -42,6 +42,25 @@
       "authors": ["Synthlight"],
       "game_version": "1.0.0",
       "updated_at": "2025-09-24T10:30:00Z"
+    },
+    {
+      "id": "stakes-of-marika",
+      "title": "Stakes of Marika - Rebirth Anywhere",
+      "description": "A quality-of-life mod inspired by Elden Ring's Stakes of Marika, when you die in a scene, you will respawn at the scene entrance instead of at a bench miles away, making it convenient for quick repeated challenges. Additionally, you can customize respawn points in scenes - after death, you will respawn at the respawn point you set.",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/46/46-1757182643-1505184006.jpg"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.0.5",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/stakes-of-marika/v1.0.5/RebirthAnywhere.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/22",
+      "authors": ["kassent"],
+      "game_version": "1.0.0",
+      "updated_at": "2025-09-24T10:30:00Z"
     }
   ]
 }
