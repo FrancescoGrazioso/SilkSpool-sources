@@ -23,6 +23,25 @@
       "authors": ["BV1kNaizqEFD"],
       "game_version": "1.0.0",
       "updated_at": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "always-have-magnet-effect",
+      "title": "Always Have Magnet Effect",
+      "description": "BepInEx plugin to always make rosaries/shards magnet to the player. \nIf it isn't obvious to you, that means you will always have the effect. \nOwning or having the charm equipped changes nothing.",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/22/22-1757100487-1751095618.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.2.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/always-have-magnet-effect/v1.2.0/AlwaysMagnet.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/22",
+      "authors": ["Synthlight"],
+      "game_version": "1.0.0",
+      "updated_at": "2025-09-24T10:30:00Z"
     }
   ]
 }
