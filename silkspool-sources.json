@@ -97,10 +97,29 @@
           "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/double-shards/v1.4.0./doubleShards.dll"
         }
       ],
-      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/92",
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/36",
       "authors": ["BlueRaja"],
       "game_version": "1.0.0",
       "updated_at": "2025-09-24T10:30:00Z"
+    },
+    {
+      "id": "no-more-2-damage-plus",
+      "title": "No More 2 Damage Plus",
+      "description": "Reduces all damage taken to just 1 point per hit and prevents rapid multi-hit combos, making Hollow Knight: Silksong significantly more forgiving without removing the challenge.",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/57/57-1757655504-1740126500.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.1.1",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/no-more-2-damage-plus/v1.1.1/NoMore2DamagePlus.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/57",
+      "authors": ["ryanfan175"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
     }
   ]
 }
