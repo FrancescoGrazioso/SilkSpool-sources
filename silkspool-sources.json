@@ -82,6 +82,25 @@
       "authors": ["amidogor"],
       "game_version": "1.0.0",
       "updated_at": "2025-09-24T10:30:00Z"
+    },
+    {
+      "id": "double-shards",
+      "title": "Double Shards",
+      "description": "Doubles the shards (the currency used to craft/repair tools) collected from all sources.",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/36/36-1757140957-1663747998.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.4.0",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/double-shards/v1.4.0./doubleShards.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/92",
+      "authors": ["BlueRaja"],
+      "game_version": "1.0.0",
+      "updated_at": "2025-09-24T10:30:00Z"
     }
   ]
 }
