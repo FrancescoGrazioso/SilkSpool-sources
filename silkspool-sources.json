@@ -234,6 +234,68 @@
       "authors": ["midouu"],
       "game_version": "1.0.0",
       "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "easy-deliveries",
+      "title": "Easy Deliveries - No Delivery Damage On Hit or Fast Travel",
+      "description": "Delivery items (supplies, queens egg, courier's rasher, etc) will no longer take damage when you get hit or fast travel.",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/53/53-1757223826-1145244157.png",
+        "https://staticdelivery.nexusmods.com/mods/8136/images/53/53-1757223826-1499024575.png"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.1",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/easy-deliveries/v1.1/EasyDeliveries.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/53",
+      "authors": ["Synthlight"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "teleport",
+      "title": "Teleport",
+      "description": "A simple teleportation mod for Hollow Knight: Silksong.\n\nCore Features:\n• 5 Save Slots — Ctrl+1~5 to quick save, Alt+1~5 to quick load\n• Teleport Menu — Ctrl+`(tilde) to open teleport UI, unlimited save slots\n• Safe Respawn — Alt+6 cycles entry points to escape stuck camera situations\n• Bench Teleport — Alt+7 teleports to the last respawn point\n• Emergency Rescue — Alt+- teleports to a safe spot; Ctrl+F9 forces return to the main menu\n• Controller Support — Fully customizable gamepad scheme\n• Audio Feedback — Plays a sound effect when saving",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/33/33-1757855274-1346660339.png",
+        "https://staticdelivery.nexusmods.com/mods/8136/images/33/33-1758197985-577963486.jpg",
+        "https://staticdelivery.nexusmods.com/mods/8136/images/33/33-1757167601-542912791.png",
+        "https://staticdelivery.nexusmods.com/mods/8136/images/33/33-1757133778-775880310.jpg"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.2.2",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/teleport/v1.2.2/Teleport.zip"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/33",
+      "authors": ["YurisCat"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
+    },
+    {
+      "id": "bonfire-teleport",
+      "title": "Bonfire Teleport",
+      "description": "This mod allows you to quickly teleport between unlocked benches. Simply open the map and select the corresponding bench icon to teleport.\n\nFeatures:\n• Quick teleportation between unlocked benches\n• Seamless integration with the game's map system\n• Easy-to-use interface - just place markers on bench icons\n• No complex menus or commands required\n• Configurable safety options to prevent quest breaking",
+      "requirements": ["BepInEx", "Silksong"],
+      "images": [
+        "https://staticdelivery.nexusmods.com/mods/8136/images/156/156-1757748553-1353757064.jpg",
+        "https://staticdelivery.nexusmods.com/mods/8136/images/156/156-1757738339-526222563.jpg"
+      ],
+      "downloads": [
+        {
+          "label": "Download v1.0.2",
+          "url": "https://github.com/FrancescoGrazioso/SilkSpool-sources/raw/refs/heads/main/downloads/bonfire-teleport/v1.0.2/BonfireTeleport.dll"
+        }
+      ],
+      "homepage": "https://www.nexusmods.com/hollowknightsilksong/mods/156",
+      "authors": ["kassent"],
+      "game_version": "1.0.0",
+      "updated_at": "2024-12-19T12:00:00Z"
     }
   ]
 }
